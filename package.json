@@ -1,0 +1,22 @@
+{
+  "name": "conversor-lbkg",
+  "version": "0.1.0",
+  "description": "conversor de lbs a kg y viceversa",
+  "main": "dist/src/conversor.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bdangla/conversor-lbs-kg.git"
+  },
+  "scripts": {
+    "build": "babel src/conversor.js -d dist",
+    "test":"mocha"
+  },
+  "author": "bdangla",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0"
+  }
+}
